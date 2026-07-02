@@ -1,0 +1,45 @@
+/* Style for the background */
+.background {
+    width: 90vw; 
+    height: 76.7vh;
+    background-color: #ffb3c6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    padding: 3vw 0vw;
+}
+
+.background p {
+    font-size: xx-large;
+}
+
+/* Style fot the main carroussel */
+.row {
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row img{
+    height: 20vh;
+    width: auto;
+}
+
+.rowSecond {
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+}
+.rowSecond img{
+    height: 10vh;
+    width: auto;
+}

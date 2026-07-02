@@ -1,0 +1,133 @@
+/* Style for the background */
+.background {
+    width: 97.2vw; 
+    min-height: 84vh;
+    background-image: linear-gradient(rgba(46, 46, 46, 0.400), rgba(46, 46, 46, 0.400)), url("../Images/Backgrounds/Farm.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+    padding: 3vh;
+    overflow-x: hidden;
+}
+
+/* Pink box with the inputs */
+.boxInputs {
+    width: 37vw;
+    height: 77vh;
+    background-color: #ffb3c6;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3vh;
+}
+
+/* Style fot the inputs box */
+.boxInputs input{
+    width: 15vw;
+    border-radius: 10px;
+    border: none;
+    padding: 1vh;
+    font-size: large;
+    color: gray;
+}
+
+/* Aligning all the input boxes and the carroussel */
+.firstRow {
+    display: flex;
+    gap: 9vh;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style fot the main carroussel */
+.carroussel {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+}
+
+/* Container for the images themselves */
+.carroussel-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Specific size of box for the pets */
+.size-pet {
+    width: 200px; 
+    height: 200px;
+}
+
+/* Specific size of box for the toys/beds */
+.size-item {
+    width: 150px;
+    height: 100px;
+    margin-bottom: 2vh;
+}
+
+/* Specific size of images for the pets */
+.pet-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+/* Carroussel buttons */
+.btn-carroussel {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ff8fab;
+    border: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+/* Button hover */
+.btn-carroussel:hover {
+    background-color: #ad6879;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+/* Style for the titles */
+.titles {
+    font-size: x-large;
+}
+
+/* Style for the start button */
+.buttonStart {
+    width: 40%;
+    height: 10%;
+    background-color: #ff8fab;
+    font-size: x-large;
+    border: none;
+    border-radius: 10px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.buttonStart a {
+    text-decoration: none;
+}
+
+.buttonStart:hover{
+    background-color: #ad6879;
+}
